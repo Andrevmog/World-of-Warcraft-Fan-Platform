@@ -20,7 +20,7 @@
 
     <!--Navbar Start-->
     <?php 
-    include 'common/navbar.php';
+    include 'common/navbar.html';
     ?>
     <!--Navbar End-->
 
