@@ -18,8 +18,7 @@
 .container {
     width: 100vw;
     height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     grid-gap: 7rem;
     padding: 0 2rem;
 }
@@ -36,11 +35,24 @@
 }
 
 .login_form {
-    width: 360px;
-    margin-left: 690px;
+    transition: all 0.4s step-start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10%;
+    padding: 60px 40px;
+    background-color: #fff;
+    width: 480px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    -webkit-transition: all 0.4s step-start;
+    -moz-transition: all 0.4s step-start;
+    -ms-transition: all 0.4s step-start;
+    -o-transition: all 0.4s step-start;
 }
 
 .login_container {
+    justify-content: end;
     width: 100%;
     padding-top: 50px;
     display: flex;
