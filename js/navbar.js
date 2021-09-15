@@ -1,11 +1,5 @@
-let btn = document.querySelector("#btn");
-let sidebar = document.querySelector(".sidebar");
-let searchbtn = document.querySelector(".bx-search");
+let sidebar = document.getElementById('navSidebar');
 
-btn.onclick = function() {
-    sidebar.classList.toggle("active");
-}
-
-searchbtn.onclick = function() {
+navbarOpener = function() {
     sidebar.classList.toggle("active");
 }

@@ -1,4 +1,4 @@
-<nav class="sidebar">
+<nav id="navSidebar" class="sidebar">
     <div class="logo_content">
         <div class="logo">
             <i class='bx bxl-reddit'></i>
@@ -7,13 +7,16 @@
             </div>
         </div>
     </div>
-    <i class='bx bx-menu' id="btn"></i>
+    <i class='bx bx-menu' id="btn" onclick="navbarOpener()"></i>
+    <!--Navbar Body Start-->
     <ul class="nav_list">
+        <!--Search-->
         <li>
-            <i class='bx bx-search'></i>
+            <i class='bx bx-search' onclick="navbarOpener()"></i>
             <input type="text" placeholder="Search...">
             <span class="tooltip">Search</span>
         </li>
+        <!--Dashboard-->
         <li>
             <a href="#">
                 <i class='bx bx-grid-alt'></i>
@@ -21,6 +24,7 @@
             </a>
             <span class="tooltip">Dashboard</span>
         </li>
+        <!--User-->
         <li>
             <a href="#">
                 <i class='bx bx-user'></i>
@@ -28,6 +32,7 @@
             </a>
             <span class="tooltip">User</span>
         </li>
+        <!--Chat-->
         <li>
             <a href="#">
                 <i class='bx bx-chat'></i>
@@ -35,6 +40,7 @@
             </a>
             <span class="tooltip">Messages</span>
         </li>
+        <!--Analytics-->
         <li>
             <a href="#">
                 <i class='bx bx-pie-chart'></i>
@@ -42,6 +48,7 @@
             </a>
             <span class="tooltip">Analytics</span>
         </li>
+        <!--File Manager-->
         <li>
             <a href="#">
                 <i class='bx bx-folder'></i>
@@ -49,6 +56,7 @@
             </a>
             <span class="tooltip">File</span>
         </li>
+        <!--Shop Cart-->
         <li>
             <a href="#">
                 <i class='bx bx-cart'></i>
@@ -56,6 +64,7 @@
             </a>
             <span class="tooltip">Order</span>
         </li>
+        <!--Favorites-->
         <li>
             <a href="#">
                 <i class='bx bx-heart'></i>
@@ -63,6 +72,7 @@
             </a>
             <span class="tooltip">Favorites</span>
         </li>
+        <!--Settings-->
         <li>
             <a href="#">
                 <i class='bx bx-cog'></i>
@@ -71,6 +81,8 @@
             <span class="tooltip">Settings</span>
         </li>
     </ul>
+    <!--Navbar Body End-->
+    <!--Navbar User Profile Start-->
     <div class="profile_content">
         <div class="profile">
             <div class="profile_details">
@@ -83,4 +95,5 @@
             <i class='bx bx-log-out' id="log_out"></i>
         </div>
     </div>
+    <!--Navbar User Profile End-->
 </nav>
