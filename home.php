@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> World of Warcraft Fanmade</title>
     <!--Custom Css-->
     <link rel="stylesheet" href="css/side.css">
@@ -11,12 +12,13 @@
     <link rel="stylesheet" href="css/chat.css">
     <link rel="stylesheet" href="css/typing.css">
     <!--Fonts and Icons-->
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!--Site Icon-->
+    <link rel="icon" type="image/png" href="img/wow.ico">
+    <!--Scripts-->
     <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="img/wow.ico">
 </head>
 
 <body>
@@ -30,9 +32,11 @@
     <!--Main Body Start-->
     <div class="home">
 
+        <!--Chat Box Begin-->
         <?php 
         include 'common/chat.html';
         ?>
+        <!--Chat Box End-->
 
         <div class="content">
             <div class="content_home">
