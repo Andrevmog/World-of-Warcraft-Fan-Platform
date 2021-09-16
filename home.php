@@ -8,6 +8,8 @@
     <!--Custom Css-->
     <link rel="stylesheet" href="css/side.css">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/typing.css">
     <!--Fonts and Icons-->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -23,9 +25,14 @@
     include 'common/navbar.html';
     ?>
     <!--Navbar End-->
-
+    
     <!--Main Body Start-->
     <div class="home_content">
+
+        <?php 
+        include 'common/chat.html';
+        ?>
+
         <!--Container Start-->
         <div class="container">
             <input type="radio" name="dot" id="one">
@@ -191,6 +198,8 @@
 
     <!--JS Scripts Start-->
     <script src="js/navbar.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/chat.js"></script>
     <!--JS Scripts End-->
 
 </body>

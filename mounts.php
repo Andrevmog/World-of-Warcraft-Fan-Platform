@@ -8,6 +8,8 @@
     <!--Custom Css-->
     <link rel="stylesheet" href="css/side.css">
     <link rel="stylesheet" href="css/mounts.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <link rel="stylesheet" href="css/typing.css">
     <!--Fonts and Icons-->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -26,6 +28,10 @@
 
     <!--Main Body Start-->
     <div class="mount_content">
+    <?php 
+        include 'common/chat.html';
+        ?>
+
         <div class="header">
             <div class="header_name">
                 Mounts
@@ -49,6 +55,8 @@
 
     <!--JS Scripts Start-->
     <script src="js/navbar.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/chat.js"></script>
     <!--JS Scripts End-->
 
 </body>
