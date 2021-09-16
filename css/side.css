@@ -52,12 +52,12 @@ body {
 
 .logo_content .logo i {
     font-size: 28px;
-    margin-right: 5px;
-    margin-left: 30px;
+    margin-right: 12px;
+    margin-left: 15px;
 }
 
 .logo_content .logo .logo_name {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 400;
 }
 
