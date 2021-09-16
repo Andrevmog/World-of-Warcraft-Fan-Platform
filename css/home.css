@@ -1,0 +1,98 @@
+.home {
+    transition: all 0.5s ease;
+    position: absolute;
+    min-height: 100vh;
+    width: calc(100% - 78px);
+    left: 78px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    display: flex;
+    flex-direction: row;
+    background: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.content_home {
+    padding: 30px;
+    background-color: #fff;
+    width: 500px;
+    height: 100%;
+}
+
+.social_media {
+    padding-top: 30px;
+    height: 100%;
+    background-color: #fff;
+    margin-right: 30px;
+    width: 400px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.twitter_header {
+    padding-left: 10px;
+}
+
+.home::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #ff676d;
+    clip-path: inset(47% 0 0 0);
+    z-index: -1;
+}
+
+.home .text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #1d1b31;
+    margin: 12px;
+}
+
+.sidebar.active~.home {
+    width: calc(100% - 240px);
+    left: 240px;
+}
+
+.twitter {
+    background: #fff;
+    border-radius: 3%;
+    width: 400px;
+    height: 100%;
+    overflow: auto;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.twitch {
+    background: #fff;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    float: right;
+}
+
+.twitch .twitch-video {
+    width: 400px;
+    height: 200px;
+}
