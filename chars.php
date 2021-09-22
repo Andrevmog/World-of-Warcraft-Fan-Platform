@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> World of Warcraft Fanmade</title>
     <!--Custom Css-->
     <link rel="stylesheet" href="css/side.css">
@@ -12,27 +13,28 @@
     <link rel="stylesheet" href="css/typing.css">
     <!--Fonts and Icons-->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--Site Icon-->
     <link rel="icon" type="image/png" href="img/wow.ico">
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <!--Navbar Start-->
-    <?php 
+    <?php
     include 'common/navbar.html';
     ?>
     <!--Navbar End-->
-    
+
     <!--Main Body Start-->
     <div class="home_content">
-
-        <?php 
+        <!--Chat Box Begin-->
+        <?php
         include 'common/chat.html';
         ?>
-
+        <!--Chat Box End-->
         <!--Container Start-->
         <div class="container">
             <input type="radio" name="dot" id="one">
@@ -57,9 +59,9 @@
                             </div>
                             <div class="media-icon">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-youtube' ></i></a>
-                                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                                <a href="#"><i class='bx bxl-youtube'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
                             </div>
                         </div>
                     </div>
@@ -80,9 +82,9 @@
                             </div>
                             <div class="media-icon">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-youtube' ></i></a>
-                                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                                <a href="#"><i class='bx bxl-youtube'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
                             </div>
                         </div>
                     </div>
@@ -103,9 +105,9 @@
                             </div>
                             <div class="media-icon">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-youtube' ></i></a>
-                                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                                <a href="#"><i class='bx bxl-youtube'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
                             </div>
                         </div>
                     </div>
@@ -130,9 +132,9 @@
                             </div>
                             <div class="media-icon">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-youtube' ></i></a>
-                                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                                <a href="#"><i class='bx bxl-youtube'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
                             </div>
                         </div>
                     </div>
@@ -153,9 +155,9 @@
                             </div>
                             <div class="media-icon">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-youtube' ></i></a>
-                                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                                <a href="#"><i class='bx bxl-youtube'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
                             </div>
                         </div>
                     </div>
@@ -176,9 +178,9 @@
                             </div>
                             <div class="media-icon">
                                 <a href="#"><i class='bx bxl-facebook'></i></a>
-                                <a href="#"><i class='bx bxl-youtube' ></i></a>
-                                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                                <a href="#"><i class='bx bxl-youtube'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
                             </div>
                         </div>
                     </div>
