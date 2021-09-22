@@ -74,15 +74,10 @@
                     </div>
                 </div>
             </div>
-
         </div>
-        
-        
-        
- 
     </div>
     <!--Main Body End-->
-   <!--JS Scripts Start-->
+    <!--JS Scripts Start-->
     <script src="js/navbar.js"></script>
     <script src="js/app.js"></script>
     <script src="js/chat.js"></script>
