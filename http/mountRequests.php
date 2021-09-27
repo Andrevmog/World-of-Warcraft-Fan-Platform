@@ -40,15 +40,28 @@ function mountsIndex() {
 function mountsSearch() {
     global $acessToken; // Use to acess the acessToken variable inside this function
 
+    $mountName = 'Turtle'; //===TEMPORARY===//
+
     // Header as battle.net documentation
     $acessTokenHeader = [
         "Authorization: Bearer " . $acessToken
     ];
 
-    //mountSearchInput HTML
+    $ch = curl_init();
+    $url = 'https://us.api.blizzard.com/data/wow/search/mount?namespace=static-us&name.en_US=' . $mountName . '=id'; // Mount Search Url
+
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $acessTokenHeader);
+    curl_setopt($ch,CURLOPT_RETURNTRANSFER, true); // Rename to false to stop seeing the array
+
+    $response = curl_exec($ch); // Receives the response from the server
+    curl_close($ch);
+
+    $mountResponse = json_decode($response, true); // Decodes the response as an array
+    return $mountResponse;
 }
 
 //===TEMPORARY===//
-echo '<pre>';
-print_r(mountsIndex()); // Info
+//echo '<pre>';
+//print_r(mountsIndex()); // Info
 //===TEMPORARY===//
